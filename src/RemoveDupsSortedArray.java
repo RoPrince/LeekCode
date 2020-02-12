@@ -61,7 +61,7 @@ public class RemoveDupsSortedArray {
 
     public static void main(String[] args) {
 
-        int[] values = {'1', '2', '2', '2', '3', '4', '4'};
+        int[] values = {1,2,3,3,4,5};
       //  int length = removeDuplicatesFromArray(values);
       //  int size = removeDuplicateElements(values);
         int size = removeDuplicates(values);
