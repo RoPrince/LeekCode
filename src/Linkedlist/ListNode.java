@@ -1,4 +1,4 @@
-package Arrays;
+package Linkedlist;
 
 public class ListNode {
     int val;
@@ -10,8 +10,8 @@ public class ListNode {
 }
 
 class Solution {
-    public ListNode deleteDuplicates(ListNode head) {
-        ListNode curr = head;
+    public Node deleteDuplicates(Node head) {
+        Node curr = head;
         while (curr != null && curr.next != null) {
             if (curr.val == curr.next.val) {
                 curr.next = curr.next.next;
@@ -26,18 +26,18 @@ class Solution {
 
 
     public static void main(String[] args) {
-        ListNode list = new ListNode(1);
-        ListNode first = new ListNode(1);
-        ListNode second = new ListNode(2);
-        ListNode third = new ListNode(2);
-        ListNode fourth = new ListNode(3);
+        Node list = new Node(1);
+        Node first = new Node(1);
+        Node second = new Node(2);
+        Node third = new Node(2);
+        Node fourth = new Node(3);
 
 
         list.next = first;
         first.next = second;
         second.next = third;
         third.next = fourth;
-        fourth.next = new ListNode(4);
+        fourth.next = new Node(4);
 
         Solution sol = new Solution();
         System.out.println(sol.deleteDuplicates(list));

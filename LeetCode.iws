@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d0ab005-f5f6-413d-9f4f-85bd779728e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/RemoveElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linkedlist/NodeList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ds/linkedlist/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ds/linkedlist/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/MaxSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/ParitySort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/ParitySortII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linkedlist/ReverseLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ds/Stack/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ds/Stack/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LeetCode.iws" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/FindDups.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/RemoveDupsSortedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/TwoSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FindDups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/FindDups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/MergeSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RemoveDupsSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/RemoveDupsSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Linkedlist/ListNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,40 +21,79 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/LeetCode$CycleLinkedList.ic" NAME="CycleLinkedList Coverage Results" MODIFIED="1581735755765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Linkedlist.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Linkedlist/NodeList.java">
+        <entry file="file://$PROJECT_DIR$/src/ds/Stack/Element.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+            <state relative-caret-position="30">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+              <folding>
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ds/linkedlist/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+              <folding>
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ds/Stack/Stack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="e#801#802#0" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#923#924#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Arrays/RemoveElement.java">
+        <entry file="file://$PROJECT_DIR$/src/Arrays/ParitySortII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            <state relative-caret-position="90">
+              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ds/linkedlist/LinkedList.java">
+        <entry file="file://$PROJECT_DIR$/src/Arrays/ParitySort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Arrays/ListNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+            <state relative-caret-position="240">
+              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -77,9 +109,9 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>*</find>
       <find>org.w3c.dom.NodeList</find>
       <find>curr2</find>
+      <find>*</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -105,10 +137,19 @@
         <option value="$PROJECT_DIR$/src/Linkedlist/MergeList.java" />
         <option value="$PROJECT_DIR$/src/Linkedlist/NodeList.java" />
         <option value="$PROJECT_DIR$/src/Arrays/RemoveElement.java" />
+        <option value="$PROJECT_DIR$/src/Linkedlist/CycleLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/Arrays/InsertIndex.java" />
+        <option value="$PROJECT_DIR$/src/Arrays/MaxSubArray.java" />
+        <option value="$PROJECT_DIR$/src/Arrays/ParitySort.java" />
+        <option value="$PROJECT_DIR$/src/Linkedlist/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/Linkedlist/ReverseLink.java" />
+        <option value="$PROJECT_DIR$/src/ds/Stack/Element.java" />
+        <option value="$PROJECT_DIR$/src/ds/Stack/Stack.java" />
+        <option value="$PROJECT_DIR$/src/Arrays/ParitySortII.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="970" />
@@ -119,6 +160,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,33 +184,32 @@
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
               <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Linkedlist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Linkedlist" type="462c0819:PsiDirectoryNode" />
-              <item name="NodeList.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+              <item name="Stack" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581686511527" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582043095571" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -184,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RemoveElement">
+  <component name="RunManager" selected="Application.ReverseLink">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -197,8 +239,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Linkedlist.MergeList" />
+    <configuration name="CycleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Linkedlist.CycleLinkedList" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -211,24 +253,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.MergeSortedArray" />
-      <module name="LeetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveDupsSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.RemoveDupsSortedArray" />
-      <module name="LeetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.RemoveElement" />
+    <configuration name="InsertIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.InsertIndex" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -241,10 +267,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution" />
+    <configuration name="ParitySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.ParitySort" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.RemoveElement" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Linkedlist.ReverseLink" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -273,11 +333,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseLink" />
+        <item itemvalue="Application.ParitySort" />
+        <item itemvalue="Application.InsertIndex" />
+        <item itemvalue="Application.CycleLinkedList" />
         <item itemvalue="Application.RemoveElement" />
-        <item itemvalue="Application.MergeList" />
-        <item itemvalue="Application.MergeSortedArray" />
-        <item itemvalue="Application.RemoveDupsSortedArray" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +356,10 @@
       <workItem from="1581045628055" duration="3448000" />
       <workItem from="1581215115225" duration="4900000" />
       <workItem from="1581401134337" duration="22962000" />
-      <workItem from="1581685367303" duration="978000" />
+      <workItem from="1581685367303" duration="7016000" />
+      <workItem from="1581819119656" duration="1461000" />
+      <workItem from="1581836410964" duration="670000" />
+      <workItem from="1581932116882" duration="10892000" />
     </task>
     <task id="LOCAL-00001" summary="Arrays">
       <created>1581498981077</created>
@@ -312,17 +375,38 @@
       <option name="project" value="LOCAL" />
       <updated>1581499045667</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Probs">
+      <created>1581686531639</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581686531639</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Cycle link">
+      <created>1581741529266</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581741529266</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Insert Index">
+      <created>1581836429915</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581836429915</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49356000" />
+    <option name="totallyTimeSpent" value="68417000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="970" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24938875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24877751" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -330,17 +414,17 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32857144" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49938875" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32777777" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49938875" visible="true" weight="0.3989796" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49938875" weight="0.32857144" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49938875" weight="0.32687926" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49938875" weight="0.327551" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49938875" weight="0.29183674" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50061125" side_tool="true" weight="0.327551" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32857144" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32687926" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -351,6 +435,7 @@
       <window_info anchor="right" id="Key Promoter X" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32967034" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24938875" />
@@ -429,7 +514,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrays" />
+    <MESSAGE value="Probs" />
+    <MESSAGE value="Cycle link" />
+    <MESSAGE value="Insert Index" />
+    <option name="LAST_COMMIT_MESSAGE" value="Insert Index" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -483,7 +571,7 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Arrays/ListNode.java</url>
+          <url>file://$PROJECT_DIR$/src/Linkedlist/ListNode.java</url>
           <line>42</line>
           <properties />
           <option name="timeStamp" value="16" />
@@ -578,6 +666,84 @@
           <properties />
           <option name="timeStamp" value="60" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Linkedlist/CycleLinkedList.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Linkedlist/CycleLinkedList.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Linkedlist/CycleLinkedList.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/InsertIndex.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/InsertIndex.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/InsertIndex.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/InsertIndex.java</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/InsertIndex.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/ParitySort.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/ParitySort.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/ParitySort.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/ParitySort.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Linkedlist/ReverseLink.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -586,13 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="623" column="15" selection-start-line="623" selection-start-column="15" selection-end-line="623" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arrays/MergeSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -623,6 +782,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Linkedlist/NodeList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays/RemoveElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Linkedlist/CycleLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays/MergeSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays/InsertIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays/MaxSubArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Linkedlist/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Linkedlist/ReverseLink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ds/linkedlist/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ds/linkedlist/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -640,31 +865,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Linkedlist/NodeList.java">
+    <entry file="file://$PROJECT_DIR$/src/ds/Stack/Element.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding>
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ds/linkedlist/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/ds/Stack/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="585">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arrays/ListNode.java">
+    <entry file="file://$PROJECT_DIR$/src/Arrays/ParitySort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        <state relative-caret-position="240">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arrays/RemoveElement.java">
+    <entry file="file://$PROJECT_DIR$/src/Arrays/ParitySortII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        <state relative-caret-position="90">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
         </state>
       </provider>
     </entry>
