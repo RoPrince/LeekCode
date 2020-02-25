@@ -26,22 +26,26 @@ class Solution {
 
 
     public static void main(String[] args) {
+        Node list = createList();
+
+        Solution sol = new Solution();
+        System.out.println(sol.deleteDuplicates(list));
+
+    }
+
+    public static Node createList() {
         Node list = new Node(1);
         Node first = new Node(1);
         Node second = new Node(2);
         Node third = new Node(2);
         Node fourth = new Node(3);
 
-
         list.next = first;
         first.next = second;
         second.next = third;
         third.next = fourth;
         fourth.next = new Node(4);
-
-        Solution sol = new Solution();
-        System.out.println(sol.deleteDuplicates(list));
-
+        return list;
     }
 }
 
